@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-flat",
-  "version": "0.3.7",
-  "description": "A theme for JSON Resume",
-  "author": "Mattias Erming",
+  "name": "jsonresume-theme-flat-zh-fork",
+  "version": "0.0.1",
+  "description": "A theme for JSON Resume in Chinese",
+  "author": "Simon Gong",
   "repository": {
     "type": "git",
-    "url": "http://github.com/erming/jsonresume-theme-flat"
+    "url": "http://github.com/zhenhuagong/jsonresume-theme-flat-zh-fork"
   },
   "scripts": {
     "start": "resume serve"
