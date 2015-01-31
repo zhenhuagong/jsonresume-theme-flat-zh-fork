@@ -59,12 +59,13 @@ h4 span:first-child {
 .container {
 	max-width: 750px;
 	padding: 0 30px;
+	font-family: "Merriweather", serif, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑";
 }
 .col-sm-6 {
 	margin-bottom: 10px;
 }
 .col-sm-12 h4 {
-	margin-top: 12px; 
+	margin-top: 12px;
 }
 .col-sm-12 + .col-sm-12 {
 	margin-top: 30px;
@@ -79,7 +80,7 @@ h4 span:first-child {
 	font-size: 24px;
 }
 #content h3 {
-	color: #f1c40f;
+	color: #212121;
 	font-size: 26px;
 	margin-top: -4px;
 }
@@ -89,6 +90,13 @@ h4 span:first-child {
 }
 #profiles .network {
 	text-transform: capitalize;
+}
+#work .company-name {
+	margin-top: 8px;
+}
+#work .team-role {
+	text-align: right;
+	padding-right: 0;
 }
 #work .position,
 #volunteer .position {
@@ -164,7 +172,7 @@ h4 span:first-child {
 	}
 	.strike-through span {
 		display: block;
-	}	
+	}
 	#header {
 		margin-bottom: 10px;
 		padding: 40px 0;
