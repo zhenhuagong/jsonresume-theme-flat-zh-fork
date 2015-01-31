@@ -71,9 +71,9 @@ h4 span:first-child {
 	margin-top: 30px;
 }
 #header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
+	/*background: #f4f6f6;*/
+	padding: 30px 0;
+	/*margin-bottom: 30px;*/
 }
 #header h2 {
 	color: #95a5a6;
@@ -94,6 +94,9 @@ h4 span:first-child {
 #work .company-name {
 	margin-top: 8px;
 }
+#work .company-period {
+	margin-top: -4px;
+}
 #work .team-role {
 	text-align: right;
 	padding-right: 0;
@@ -103,7 +106,10 @@ h4 span:first-child {
 	font-weight: bold;
 	margin-bottom: 8px;
 }
-#education .area {
+/*#education {
+	margin-top: 100px;
+}
+*/#education .area {
 	font-weight: bold;
 }
 #education .area:before {
@@ -124,7 +130,7 @@ h4 span:first-child {
 
 @media (min-width: 480px) {
 	.strike-through {
-		border-top: 1px solid #f4f6f6;
+		/*border-top: 1px solid #f4f6f6;*/
 		height: 20px;
 		margin-top: 12px;
 		margin-bottom: -2px;

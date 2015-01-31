@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-
+	<link rel="stylesheet" href="style.css" media="print" />
 	<style type="text/css">
 	{{{css}}}
 	</style>
@@ -62,7 +62,7 @@
 			<div class="col-sm-4">
 				<strong>个人网站</strong>
 				<div class="website">
-					<a href="{{.}}">{{.}}</a>
+					{{.}}
 				</div>
 			</div>
 			{{/website}}
@@ -110,7 +110,7 @@
 			<div class="col-sm-12">
 				<h3 class="strike-through company-name">
 					<span>{{company}}</span>
-					<span class="date">
+					<span class="date company-period">
 						{{startDate}} ~ {{#if endDate}}{{endDate}}{{else}}至今{{/if}}
 					</span>
 				</h3>
@@ -134,7 +134,7 @@
 					<aside class="team-role">{{role}} | {{team}}</aside>
 				</div>
 				<div class="summary">
-					<p>{{summary}}<a href="{{.}}">{{website}}</a></p>
+					<p>{{summary}}{{website}}</p>
 				</div>
 				{{#if highlights.length}}
 				<h4>职责和成果</h4>
